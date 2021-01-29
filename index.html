@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background">
+    <div id="survey">
+        <h1 id="title">Take Our Survey!</h1>
+        <p id="description">enter your information below to participate.</p>
+        <form id="survey-form" action="">
+        <label for="name" id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="John Smith" required>  
+        <br><br>
+        <label for="email" id="email-label">E-mail:</label>
+        <input id="email" type="email" placeholder="johnsmith@email.com" required>
+        <br><br>
+        <label for="number" id="number-label">Number:</label>
+        <input type="number" id="number" name="phone" min="0" max="9999999999"
+        required placeholder="123-456-7890">
+        <br><br>
+        <label for="gender" id="gender">Gender:</label>
+        <select name="gender" id="dropdown">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        <label for="time-of-day">preferred time of day:</label>
+            <div>
+                <input type="radio" id="choice1" name="tod" value="day">
+                <label for="choice1"> Day </label>
+
+                <input type="radio" id="choice2" name="tod" value="night">
+                <label for="choice2"> Night </label>
+            </div>
+        <br><br>
+        <label for="cars"> Favorite car brand:</label>
+        <div>
+            <input type="checkbox" id="car1" name="cars" value="Honda">
+            <label for="car1"> Honda </label>
+
+            <input type="checkbox" id="car2" name="cars" value="Volkswagon">
+            <label for="car2"> Volkswagon </label>
+
+            <input type="checkbox" id="car3" name="cars" value="Toyota">
+            <label for="car3"> Toyota </label>
+
+            <input type="checkbox" id="car4" name="cars" value="Mercedez-benz">
+            <label for="car4"> Mercedes Benz </label>
+        </div>
+        <br><br>
+        <label for="comments">Tell us more about yourself:</label>
+        <br><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

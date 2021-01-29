@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+    background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    height:auto;
+    max-width: 100vh;
+    display:block;
+}
+
+body    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#survey  {
+    background-color: rgb(32, 149, 178);
+    opacity: 90%;
+    margin: 10%;
+    color:white;
+    border-radius: 5%;
+    padding: 10%;
+   display: inline-block;
+   font-family: 'Hachi Maru Pop', cursive;
+   text-align:center;
+}
